@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header.hero {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #00bfff;
+    color: #fff;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #009acd;
+}
+
+.about, .ebook-preview, .cta {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about li {
+    background: #e0f7fa;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.ebook-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #203a43;
+    color: #fff;
+    margin-top: 50px;
+}
